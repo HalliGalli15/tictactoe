@@ -1,0 +1,26 @@
+nb-layout{
+    width: 100vh;
+}
+
+nb-layout-column{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display:table;
+}
+
+.header {
+    width: 100%;
+    display:table;
+}
+
+.title {
+    width: 100%;
+    display: table-cell;
+	vertical-align: middle;
+	text-align:center;
+}
+
+.footer p{
+    margin: 0;
+}

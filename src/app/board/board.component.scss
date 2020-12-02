@@ -1,0 +1,41 @@
+main {
+    height: 65%;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    //display: grid;
+    //grid-template-columns: auto auto auto;
+    //grid-gap: 20px;
+}
+  
+app-square {
+    border: 0px black solid;
+    height: 32%;
+    width: 32%; /* Same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+}
+
+h1 {
+    color: white;	
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 5px blueviolet solid;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.siteTitle {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
